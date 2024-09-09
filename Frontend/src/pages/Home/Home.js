@@ -117,7 +117,7 @@ const Home = () => {
                 collaborative journey, and we want to give every student the
                 opportunity to share their knowledge and experiences with
                 others. Whether you're an aspiring writer, a coding enthusiast,
-                or just passionate about a subject, Geekers is your canvas to
+                or just passionate about a subject, CompilerVerse is your canvas to
                 create, publish, and share your insights with the world.
               </Typography>
               <Button onClick={() => navigate("/blogs")}>

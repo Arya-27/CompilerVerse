@@ -96,20 +96,23 @@ const Header = () => {
             alt="Not Found"
           /> */}
           <Typography
-            variant="h1"
+            variant="h4"
             noWrap
             component="a"
             onClick={() => navigate("/")}
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
-              fontFamily: "Montserrat",
-              fontWeight: 700,
+              fontFamily: "Montserrat, sans-serif",
+              fontWeight: 900,
               letterSpacing: ".3rem",
               textDecoration: "none",
+              "&:hover": {
+               color: "#1e88e5", 
+    },
             }}
           >
-            GEEKERS
+            CompilerVerse
           </Typography>
           {/* <HomeIcon
             sx={{
@@ -204,7 +207,7 @@ const Header = () => {
               mr: 2,
               display: { xs: "flex", md: "none" },
               flexGrow: 1,
-              fontFamily: "Montserrat",
+              fontFamily: "Playfair Display",
               fontWeight: 700,
               fontSize: ".7rem",
               color: "#FFFFFF",
@@ -212,7 +215,7 @@ const Header = () => {
               letterSpacing: ".3rem",
             }}
           >
-            GEEKERS
+            CompilerVerse
           </Typography>
           <div className={style.mode}>
             {darkMode ? (
