@@ -1,8 +1,4 @@
-# [geekers](https://geekers.vercel.app/)
-
-# Coding Club site of my College using MERN (In Progress )
-
-![image](https://user-images.githubusercontent.com/92181337/228806433-2cd613b3-dd8e-4c20-a59f-29cb99524a71.png)
+# [CompilerVerse](https://compiler-verse.vercel.app/)
 
 # Introduction
 
